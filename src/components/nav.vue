@@ -1,5 +1,6 @@
 <template>
-	<nav>
+	<img class="logo" alt="Vue logo" src="@/assets/logo.png" />
+	<nav class="menu">
 		<router-link to="/">Home</router-link>
 		<router-link to="/about">About</router-link>
 	</nav>
@@ -12,4 +13,15 @@ export default {
 </script>
 
 <style>
+.logo {
+	max-width: 250px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+
+	padding: 16px 0px;
+	gap: 12px;
+}
 </style>

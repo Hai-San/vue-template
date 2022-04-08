@@ -6,6 +6,7 @@
 * CSS SASS
 * editorconfig
 * Vue @ alias
+* Simple router setup
 
 ## Vue 3 + Vite
 
