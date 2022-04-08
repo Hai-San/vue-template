@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-import Nav from './components/nav.vue';
+import Nav from './components/nav.vue'
 </script>
 
 <style>

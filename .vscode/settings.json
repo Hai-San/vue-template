@@ -9,14 +9,32 @@
 			"source.fixAll.stylelint": true
 		}
 	},
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
 	"[vue]": {
+		"editor.formatOnSave": false,
 		"editor.codeActionsOnSave": {
 			"source.fixAll.stylelint": true,
+			"source.fixAll.eslint": true
 		},
+		"editor.defaultFormatter": "johnsoncodehk.volar"
 	},
 	"stylelint.validate": [
 		"css",
 		"scss",
 		"vue"
-	]
+	],
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"eslint.onIgnoredFiles": "warn",
+	"eslint.run": "onSave",
+	"eslint.validate": [
+		"vue"
+	],
 }

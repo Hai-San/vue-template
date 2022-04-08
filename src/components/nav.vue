@@ -1,15 +1,23 @@
 <template>
-	<img class="logo" alt="Vue logo" src="@/assets/logo.png" />
-	<nav class="menu">
-		<router-link to="/">Home</router-link>
-		<router-link to="/about">About</router-link>
-	</nav>
+    <img
+        class="logo"
+        alt="Vue logo"
+        src="@/assets/logo.png"
+    >
+    <nav class="menu">
+        <router-link to="/">
+            Home
+        </router-link>
+        <router-link to="/about">
+            About
+        </router-link>
+    </nav>
 </template>
 
 <script>
 export default {
-	name: 'Nav'
-};
+    name: 'Nav'
+}
 </script>
 
 <style>
