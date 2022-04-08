@@ -1,0 +1,16 @@
+$font-size-xxxs: 12;
+$font-size-xxs: 14;
+$font-size-xs: 16;
+$font-size-sm: 20;
+$font-size-md: 24;
+$font-size-lg: 32;
+$font-size-xl: 40;
+
+// em font size
+$rem-font-size-xxxs: #{pxrem($font-size-xxxs)}rem;
+$rem-font-size-xxs: #{pxrem($font-size-xxs)}rem;
+$rem-font-size-xs: #{pxrem($font-size-xs)}rem;
+$rem-font-size-sm: #{pxrem($font-size-sm)}rem;
+$rem-font-size-md: #{pxrem($font-size-md)}rem;
+$rem-font-size-lg: #{pxrem($font-size-lg)}rem;
+$rem-font-size-xl: #{pxrem($font-size-xl)}rem;
