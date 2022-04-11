@@ -8,6 +8,8 @@ import Nav from './components/nav.vue'
 </script>
 
 <style>
+@import './styles/global/reset.scss';
+
 .app {
 	display: flex;
 	align-items: center;
