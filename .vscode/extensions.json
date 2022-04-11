@@ -1,6 +1,8 @@
 {
-    "recommendations": [
-        "johnsoncodehk.volar",
-        "EditorConfig.EditorConfig"
-    ]
+	"recommendations": [
+		"johnsoncodehk.volar",
+		"editorconfig.editorconfig",
+		"stylelint.vscode-stylelint",
+		"dbaeumer.vscode-eslint"
+	]
 }
