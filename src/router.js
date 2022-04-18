@@ -5,13 +5,11 @@ import About from '@/pages/about.vue'
 const routes = [
     {
         path: '/',
-        component: Home,
-        name: 'pageHome'
+        component: Home
     },
     {
         path: '/about',
-        component: About,
-        name: 'pageBlog'
+        component: About
     }
 ]
 

@@ -43,7 +43,4 @@ export default {
 </script>
 
 <style lang="scss">
-.pageHome {
-	background-color: var(--color-primary-dark);
-}
 </style>
