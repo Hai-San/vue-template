@@ -7,15 +7,8 @@
 import Nav from './components/nav.vue'
 </script>
 
-<style>
+<style lang="scss">
+@import './styles/global/global.scss';
+
 @import './styles/global/reset.scss';
-
-.app {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-
-	width: 100%;
-	height: 100%;
-}
 </style>
