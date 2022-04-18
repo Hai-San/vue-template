@@ -7,6 +7,7 @@
 * editorconfig
 * Vue @ alias
 * Simple router setup
+* Simple Vuex example
 
 ## Vue 3 + Vite
 
