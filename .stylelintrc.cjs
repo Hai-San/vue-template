@@ -29,12 +29,10 @@ module.exports = {
             },
         ],
         'rule-empty-line-before': 'always',
-        'at-rule-empty-line-before': 'always',
         "at-rule-no-unknown": null,
         'declaration-block-trailing-semicolon': 'always',
         'block-no-empty': null,
         'value-keyword-case': 'lower',
-        'function-name-case': 'lower',
         'number-leading-zero': 'never',
         'string-quotes': 'single',
         'comment-empty-line-before': [
@@ -44,7 +42,13 @@ module.exports = {
             },
         ],
         'max-empty-lines': 1,
-        indentation: 'tab',
+		indentation: 'tab',
+		"at-rule-empty-line-before": [
+			"always",
+			{
+			  "except": ["first-nested", "blockless-after-blockless"]
+			}
+		],
         'order/order': [
             'custom-properties',
             'dollar-variables',
