@@ -1,40 +1,54 @@
 {
-	"[css]": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll.stylelint": true
-		}
-	},
-	"[scss]": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll.stylelint": true
-		}
-	},
-	"[javascript]": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": true
-		}
-	},
-	"[vue]": {
-		"editor.formatOnSave": false,
-		"editor.codeActionsOnSave": {
-			"source.fixAll.stylelint": true,
-			"source.fixAll.eslint": true
-		},
-		"editor.defaultFormatter": "Vue.volar"
-	},
-	"stylelint.validate": [
-		"css",
-		"scss",
-		"vue"
-	],
-	"editor.formatOnSave": true,
-	"editor.formatOnType": true,
-	"eslint.alwaysShowStatus": true,
-	"eslint.format.enable": true,
-	"eslint.lintTask.enable": true,
-	"eslint.onIgnoredFiles": "warn",
-	"eslint.run": "onSave",
-	"eslint.validate": [
-		"vue"
-	],
+    "[css]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+    "[scss]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[vue]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true,
+            "source.fixAll.eslint": true
+        },
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+    },
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "vue"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordBasedSuggestions": false,
+    "editor.wordWrapColumn": 120,
+    "editor.snippetSuggestions": "top",
+    "editor.rulers": [
+        120,
+        140
+    ],
+    "html.format.wrapLineLength": 120,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.onIgnoredFiles": "warn",
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        "vue"
+    ],
+    "files.eol": "\r\n",
 }
