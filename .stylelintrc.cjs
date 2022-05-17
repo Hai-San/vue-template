@@ -10,7 +10,7 @@ module.exports = {
         }
     ],
     rules: {
-        "scss/at-rule-no-unknown": true,
+        'scss/at-rule-no-unknown': true,
         'scss/at-extend-no-missing-placeholder': true,
         'scss/at-function-parentheses-space-before': 'always',
         'scss/at-mixin-parentheses-space-before': 'always',
@@ -29,7 +29,7 @@ module.exports = {
             },
         ],
         'rule-empty-line-before': 'always',
-        "at-rule-no-unknown": null,
+        'at-rule-no-unknown': null,
         'declaration-block-trailing-semicolon': 'always',
         'block-no-empty': null,
         'value-keyword-case': 'lower',
@@ -43,10 +43,10 @@ module.exports = {
         ],
         'max-empty-lines': 1,
 		indentation: 'tab',
-		"at-rule-empty-line-before": [
-			"always",
+		'at-rule-empty-line-before': [
+			'always',
 			{
-			  "except": ["first-nested", "blockless-after-blockless"]
+			  'except': ['first-nested', 'blockless-after-blockless']
 			}
 		],
         'order/order': [
