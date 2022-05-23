@@ -1,4 +1,4 @@
-module.exports = {
+module.exports ={
     overrides: [
         {
             customSyntax: require('postcss-html')({
@@ -21,7 +21,7 @@ module.exports = {
             {
                 'except': [
                     'first-nested',
-                    'blockless-after-blockless'
+                    'after-same-name'
                 ]
             }
         ],
@@ -307,7 +307,7 @@ module.exports = {
                 unspecified: 'bottomAlphabetical'
             }
         ],
-        'rule-empty-line-before': 'always',
+        'rule-empty-line-before': 'always-multi-line',
         'scss/at-else-closing-brace-space-after': 'always-intermediate',
         'scss/at-else-if-parentheses-space-before': 'always',
         'scss/at-extend-no-missing-placeholder': true,
