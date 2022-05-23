@@ -1,50 +1,84 @@
 module.exports = {
-    root: true,
-    extends: [ 'plugin:vue/vue3-recommended' ],
-    plugins: [ 'vue' ],
-    parserOptions: {
-        sourceType: 'module',
-        ecmaVersion: 'latest'
-    },
     env: {
         browser: true,
         es2017: true,
         node: true
     },
+    extends: [
+        'plugin:vue/vue3-recommended'
+    ],
+    parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module'
+    },
+    plugins: [
+        'vue'
+    ],
+    root: true,
     rules: {
-        'no-console': [
+        'array-bracket-newline': [
             'error',
             {
-                allow: [ 'error' ]
+                'minItems': 1
             }
         ],
-        'vue/multi-word-component-names': 'off',
-        'vue/html-indent': [ 'error', 4 ],
-        'quotes': [ 'error', 'single' ],
-        'comma-dangle': [ 'error', 'never' ],
+        'array-bracket-spacing': [
+            'error',
+            'always'
+        ],
+        'array-element-newline': [
+            'error',
+            'always'
+        ],
+        'comma-dangle': [
+            'error',
+            'never'
+        ],
         'indent': [
             'error',
             4,
             {
-                'SwitchCase': 1,
-                'VariableDeclarator': 'first',
-                'MemberExpression': 1,
-                'ObjectExpression': 1,
-                'FunctionExpression': {
-                    'parameters': 'first'
-                },
-                'FunctionDeclaration': {
-                    'parameters': 'first'
-                },
                 'CallExpression': {
                     'arguments': 'first'
                 },
                 'flatTernaryExpressions': true,
-                'offsetTernaryExpressions': true
+                'FunctionDeclaration': {
+                    'parameters': 'first'
+                },
+                'FunctionExpression': {
+                    'parameters': 'first'
+                },
+                'MemberExpression': 1,
+                'ObjectExpression': 1,
+                'offsetTernaryExpressions': true,
+                'SwitchCase': 1,
+                'VariableDeclarator': 'first'
             }
         ],
-        'object-curly-spacing': [ 'error', 'always' ],
-        'array-bracket-spacing': [ 'error', 'always' ],
-        'semi': [ 'error', 'never' ]
+        'no-console': [
+            'error',
+            {
+                allow: [
+                    'error'
+                ]
+            }
+        ],
+        'object-curly-spacing': [
+            'error',
+            'always'
+        ],
+        'quotes': [
+            'error',
+            'single'
+        ],
+        'semi': [
+            'error',
+            'never'
+        ],
+        'vue/html-indent': [
+            'error',
+            4
+        ],
+        'vue/multi-word-component-names': 'off'
     }
 }
